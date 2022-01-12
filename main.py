@@ -64,9 +64,8 @@ mouths = ['01_Mouth_Example 1.png', '02_Mouth_Example2.png']
 eyez = ['00_Eyes_Example 1.png', '01_Eyes_Example_2.png']
 overheads = ['00_Overhead_Example_1.png', '01_Overhead_Example2.png']
 
-count = 0
-
 def gen():
+    count = 0
     while count != 8888: # size of collection, so script stops
         traits = []
         traits_names = []
@@ -212,7 +211,6 @@ def gen():
             mouthsList.append(traits_names[4])
             eyesList.append(traits_names[5])
             overheadsList.append(traits_names[6])
-            invisibleList.append(virtue)
 
     else:
         print('Successfully Generated All NFTs!')
